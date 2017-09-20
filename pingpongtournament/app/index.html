@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ping Pong Me</title>
+
+		<!-- font "work sans" -->
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+
+		<!-- stylesheets and scripts --> 
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+	</head>
+	
+		<body>
+    
+    <!-- start container --> 
+    	<div class="container">
+
+      	<!--Main title header --> 
+      	<h1>Ping Pong Me</h1>
+    		
+    		<!--add player textbox--> 
+    		<form role="form-group">
+        		<input type="text" class="form-control" placeholder="Add player" name="add" id="add" required">
+    		</form>
+
+    			<!-- add player button--> 
+    			<input type="submit" value="Add player" class="submit" id="submit"  />
+
+
+    				<!--listed players, requires validation --> 
+      				<div>
+        			<ul id="list"></ul>
+        			</div>
+
+        				
+        				<!--shuffle and commit to pairings button --> 
+        				<div>
+  						<button id="randomise" value="Randomise and split into pairs" class="submit"/>
+  						</div>
+    
+  							<!-- begin list of paired players --> 
+    						<label class="pairs">PAIRED players will show here:</label>
+    					<!-- 	<li id="pairs"></li> -->
+    					<ul id="output">
+						<!-- <li><span id="player1"></<span><span id="vs"></<span><span id="player2"></<span></li> --> 
+
+						<!-- </ul> -->
+
+    					<!-- <ol id="player1"></ol><ol id="vs"></ol><ol id="player2"></ol>  -->
+    					
+		<script src="js/main.js"></script>
+		
+		</body>
+		
+</html>
