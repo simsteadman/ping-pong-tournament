@@ -1,0 +1,96 @@
+@charset "UTF-8"; 
+
+/*
+form {
+    display: inline-block;
+}
+*/
+font-family {
+
+	'Exo', sans-serif;
+
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+   /* background-color: green;*/
+  }
+}
+
+.form-horizontal {
+	padding-bottom: : 10px;
+}
+
+.form-group {
+	padding: : 20px;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+body {
+	
+	padding-top: 20px;
+  padding-bottom: 20px;
+  border: 5px, solid black; 
+	/*background-color: #678180;*/ 
+	
+}
+
+#test {
+	background-color: red;
+}
+
+.btn-success {
+
+/*	padding: 10px;*/
+
+}
+
+.row {
+	padding-top: 5px;
+/*	border: 1px solid black;*/
+	padding-bottom: 5px;
+}
+
+.col {
+	padding-top: 5px; 
+	padding-bottom: 5px;
+	/*border: 1px solid black;*/
+}
+
+.col-6 {
+	/*border: 5px, solid black;*/
+}
+
+.page-header {
+	font-family: 'Exo', sans-serif;
+}
+
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  font-family: 'Exo', sans-serif;
+   padding: 14px 24px;
+}
+
+.jumbotron h1 {
+	font-size: 50px
+}
+
+
+.footer {
+	padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+  font-size: 14px; 
+}
+
+#game {
+
+  -vendor-animation-iteration-count: infinite;
+}
+
